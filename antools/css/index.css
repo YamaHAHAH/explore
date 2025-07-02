@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #283036;
+  font-family: "Poppins", sans-serif;
+}
+
+.header__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.header__link {
+  color: #C4C4C4;
+}
+.header__btn {
+  font-size: 16px;
+  padding: 12px 28px;
+  border-radius: 8px;
+  background: none;
+  border: 0;
+  color: whitesmoke;
+  transition: 1s;
+}
+.header__btn:hover {
+  -webkit-backdrop-filter: blur(50px);
+          backdrop-filter: blur(50px);
+  background: #FF6E30;
+  transform: scale(1.2);
+  transition: 1s;
+}
+
+.most {
+  margin-top: 200px;
+}
+.most__top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.most__title {
+  font-size: 48px;
+  font-weight: 500;
+  color: aliceblue;
+}
+.most__description {
+  max-width: 437px;
+  font-size: 18px;
+  text-align: center;
+  color: rgb(218, 225, 230);
+}
+.most__content {
+  margin-top: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 23px;
+}
+.most__card {
+  border-radius: 15px;
+  padding: 33px;
+  background-color: grey;
+}
+.most__card-top {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.most__card-top h3 {
+  font-size: 24px;
+  font-weight: 500;
+  color: aliceblue;
+}
+.most__card-top h4 {
+  margin-top: 3px;
+  font-size: 18px;
+  color: #FFA537;
+}
+.most__card-bot {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.most__card-bot button {
+  color: #ffffff;
+  padding: 9px 35px;
+  background-color: #FFA537;
+  border: 0;
+  border-radius: 8px;
+}
+.most__card-icons {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+.most__text {
+  color: rgb(213, 208, 208);
+  margin-top: 30px;
+  max-width: 326px;
+}
+
+.roma__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.roma__description {
+  position: relative;
+  color: white;
+  font-size: 14px;
+  max-width: 400px;
+}
+.roma__comma {
+  position: absolute;
+  top: -35%;
+  left: -15%;
+  z-index: -1;
+}/*# sourceMappingURL=index.css.map */
